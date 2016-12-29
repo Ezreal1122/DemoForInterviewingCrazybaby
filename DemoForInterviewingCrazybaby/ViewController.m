@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "AFNetworking.h"
+#import "NetworkManager.h"
+#import "HSearchViewController.h"
 
-@interface ViewController ()
-
+@interface ViewController () <UISearchBarDelegate,UISearchResultsUpdating>
+@property(nonatomic, strong)UISearchController *searchController;
 @end
 
 @implementation ViewController
@@ -17,6 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+   
+    
 }
 
 
