@@ -195,22 +195,14 @@
 		8103D0B41E12464900A922B1 /* DemoForInterviewingCrazybaby */ = {
 			isa = PBXGroup;
 			children = (
+				81E17C921E14DD6500CEA205 /* ThirdParts */,
+				81E17C8F1E14DD2C00CEA205 /* Models */,
+				81E17C911E14DD3C00CEA205 /* Views */,
+				81E17C901E14DD3A00CEA205 /* Controllers */,
 				8103D0B81E12464900A922B1 /* AppDelegate.h */,
 				8103D0B91E12464900A922B1 /* AppDelegate.m */,
 				8103D0BB1E12464900A922B1 /* ViewController.h */,
 				8103D0BC1E12464900A922B1 /* ViewController.m */,
-				8103D1001E12721800A922B1 /* HSearchViewController.h */,
-				8103D1011E12721800A922B1 /* HSearchViewController.m */,
-				81D80EE21E138CAB001376FF /* HDetailViewController.h */,
-				81D80EE31E138CAB001376FF /* HDetailViewController.m */,
-				81D80EE51E13C971001376FF /* HWebViewController.h */,
-				81D80EE61E13C971001376FF /* HWebViewController.m */,
-				8103D0FD1E126A7800A922B1 /* NetworkManager.h */,
-				8103D0FE1E126A7800A922B1 /* NetworkManager.m */,
-				8103D1031E12734500A922B1 /* RepoModel.h */,
-				8103D1041E12734500A922B1 /* RepoModel.m */,
-				8103D0E81E1247A600A922B1 /* AFNetworking */,
-				81E17C4C1E14A4D100CEA205 /* MJRefresh */,
 				8103D0BE1E12464900A922B1 /* Main.storyboard */,
 				8103D0C11E12464900A922B1 /* Assets.xcassets */,
 				8103D0C31E12464900A922B1 /* LaunchScreen.storyboard */,
@@ -359,6 +351,46 @@
 				81E17C6E1E14A4D100CEA205 /* MJRefreshStateHeader.m */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		81E17C8F1E14DD2C00CEA205 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8103D1031E12734500A922B1 /* RepoModel.h */,
+				8103D1041E12734500A922B1 /* RepoModel.m */,
+				8103D0FD1E126A7800A922B1 /* NetworkManager.h */,
+				8103D0FE1E126A7800A922B1 /* NetworkManager.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		81E17C901E14DD3A00CEA205 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8103D1001E12721800A922B1 /* HSearchViewController.h */,
+				8103D1011E12721800A922B1 /* HSearchViewController.m */,
+				81D80EE21E138CAB001376FF /* HDetailViewController.h */,
+				81D80EE31E138CAB001376FF /* HDetailViewController.m */,
+				81D80EE51E13C971001376FF /* HWebViewController.h */,
+				81D80EE61E13C971001376FF /* HWebViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		81E17C911E14DD3C00CEA205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		81E17C921E14DD6500CEA205 /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				8103D0E81E1247A600A922B1 /* AFNetworking */,
+				81E17C4C1E14A4D100CEA205 /* MJRefresh */,
+			);
+			name = ThirdParts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
